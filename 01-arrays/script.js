@@ -15,10 +15,10 @@ console.log(teachers[3]);
 
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-let index = teachers.indexOf("Lewis")
+let index = teachers.indexOf("Carlo")
 
 if (index !== -1) {
-  teachers.splice(5,1,"Patrick")
+  teachers.splice(4,1,"Patrick")
 
   
 }
@@ -68,7 +68,11 @@ console.log(isFabioPresent);
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+const lewisIndex = teachers.indexOf("Lewis");
+
+console.log(lewisIndex);
+
+
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
